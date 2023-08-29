@@ -1,4 +1,4 @@
-INSERT INTO departments (department_name) VALUES
+INSERT INTO departments (name) VALUES
 ("Operations"),
 ("Research"),
 ("Marketing"),
@@ -21,14 +21,14 @@ INSERT INTO roles (title, salary, department_id) VALUES
 
 INSERT INTO employees (first_name, last_name, role_id, manager_id) VALUES
 ("Bob", "Igler", 9, null),
-("Beff", "Jezos", 8, 1),
-("Frank", "Enstein", 2, 4),
-("Rhapsody", "Blue", 3, 1),
-("Thomas", "Foolery", 5, 6),
-("Nicole", "Tesle", 6, 2),
-("Space", "Ghost", 10, 3),
-("Minion", "Despic", 1, 3),
-("Chester", "Cheetoh", 1, 3),
-("Capin", "Krunz", 1, 3),
-("Coun", "Tchockula", 1, 3),
+("Beff", "Jezos", 7, 1),
+("Rhapsody", "Blue", 2, 1),
+("Frank", "Enstein", 1, 3),
+("Nicole", "Tesle", 5, 2),
+("Thomas", "Foolery", 4, 5),
+("Space", "Ghost", 8, 3),
+("Minion", "Despic", 1, 4),
+("Chester", "Cheetoh", 1, 4),
+("Capin", "Krunz", 1, 4),
+("Coun", "Tchockula", 1, 4),
 ("North", "Carolina", 7, 2);
