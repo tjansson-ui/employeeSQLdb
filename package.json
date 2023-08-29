@@ -1,13 +1,14 @@
 {
-  "name": "Tor Jansson",
+  "name": "employee database",
   "version": "1.0.0",
   "description": "## Your Task",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node default.js"
   },
-  "author": "",
+  "author": "Tor Jansson",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.4",
